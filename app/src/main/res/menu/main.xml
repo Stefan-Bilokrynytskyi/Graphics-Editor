@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.gmariotti.android.example.shapefinger.MainActivity" >
+
+
+
+
+    <item android:id="@+id/action_point"
+        android:title="@string/action_point"
+        android:icon="@drawable/dot"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_line"
+        android:title="@string/action_line"
+        android:icon="@drawable/linep"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/action_rectangle"
+        android:title="@string/action_rectangle"
+        android:icon="@drawable/rectangle"
+        android:orderInCategory="3"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_ellipse"
+        android:title="@string/action_ellipse"
+        android:icon="@drawable/ic_oval_off"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_table"
+        android:title="@string/action_ellipse"
+        android:icon="@drawable/ic_table"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_cube"
+        android:title="@string/action_cube"
+        android:icon="@drawable/cube"
+        android:orderInCategory="5"
+
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_section"
+        android:title="@string/action_section"
+        android:icon="@drawable/poliline"
+        android:orderInCategory="6"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+
+</menu>
